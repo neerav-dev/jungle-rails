@@ -4,6 +4,12 @@
     <h1>My Cart</h1>
   </header>
 
+<% if (enhanced_cart.length == 0) %>
+  <div class="alert alert-danger" role="alert">
+    <h2>Your don't have any items in cart</h2>
+    <h4>Please click on <%= link_to 'Home', :root %> to continue shopping.</h4>
+  </div>
+<% else %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +54,7 @@
       <% end %>
     </div>
   </div>
+
+<% end %>
 
 </section>
