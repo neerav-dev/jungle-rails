@@ -1,2 +1,28 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<section class="admin-products-index">
+
+  <header class="page-header">
+    <h1>Admin &raquo; Dashboard</h1>
+  </header>
+
+<div class="alert alert-info" role="alert">
+  Total <%= link_to "Products", "/admin/products"%> Available: 
+  <span class="badge"><%= @product_count%></span>
+</div>
+
+<div class="alert alert-info" role="alert">
+  Number of 
+  <span class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Categories:
+            <span class="caret"></span>  
+          </a>
+          <ul class="dropdown-menu">
+            <% Category.all.each do |category| %>
+              <li><%= link_to category.name, category %></li>
+            <% end %>
+          </ul>
+        </li>
+  <span class="badge"><%= @category_count%></span>
+</div>
+
+</section>
