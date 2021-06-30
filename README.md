@@ -2,6 +2,46 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Screenshots
+
+**Main Page**
+
+!["Screenshot of Main Page"](#)
+
+**Dashboard Page**
+
+!["Screenshot of Dashboard Page"](#)
+
+**Product Page**
+
+!["Screenshot of Product Page"](#)
+
+**Add New Product Form**
+
+!["Screenshot of Add New Product Form"](#)
+
+**Categories Page**
+
+!["Screenshot of Categories Page"](#)
+
+**Add new Category Form**
+
+!["Screenshot of Add new Category Form"](#)
+
+**Empty Cart Page**
+
+!["Screenshot of Empty Cart Page"](#)
+
+**Cart with product**
+
+!["Screenshot of Cart with product"](#)
+
+**Checkout Stripe Payment**
+
+!["Screenshot of Checkout Stripe Payment"](#)
+
+
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
